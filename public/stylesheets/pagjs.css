@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: #00B7FF;
+}
+
+/* Header start */
+header {
+    position: fixed;
+    width: 100%;
+    height: 3.75rem;
+    background: #a7a9a9;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+/* Header end */
+
+.back_main {
+    position: relative;
+    top: 3.75rem;
+    width: 100%;
+    height: 20rem;
+    background: #f2ff00;
+}
+
+/* Main start */
+
+main {
+    width: 80%;
+    height: 100rem;
+    background: #c1bebe;
+    position: absolute;
+    top: 8.75rem;
+    padding: 10px;
+}
+
+/* Main end */
+
+.summario ul{
+    position: relative;
+    left: 10px;
+}
