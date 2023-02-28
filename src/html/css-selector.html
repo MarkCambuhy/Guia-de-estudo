@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+</head>
+<body>
+    <h1>Selectors</h1>
+    <p>Como o próprio nome diz, ele seleciona qual tag em HTML você deseja estilizar. Exemplos de alguns seletores básicos:</p>
+    <code>
+        /* Por elemento, ele seleciona todos os elementos &lt;p&gt;*/<br>
+        p { <br>
+            background-color: #000;<br>
+            color: white;<br>
+        }<br>
+
+        /* Por class, ele seleciona todos os elementos com a class = "text"*/<br>
+        .text { <br>
+            background-color: #000;<br>
+            color: white;<br>
+        }<br>
+
+        /* Por id, ele seleciona todos os elementos com o id = "mainText"*/<br>
+        #maintext { <br>
+            background-color: #000;<br>
+            color: white;<br>
+        }<br>
+
+        /* Elemento universal, todos os elementos são selecionados*/<br>
+        * {<br>
+            margin: 0;<br>
+            padding: 0;<br>
+            box-sizing: border-box;<br>
+        }<br>
+
+        /* Seleciona apenas os elementos &lt;p&gt; com a class="maintext"*/<br>
+        p.maintext {<br>
+            background-color: blue;<br>
+            color: green;<br>
+        }<br>
+
+        /* Seleciona os elementos, &lt;p&gt;, &lt;div&gt; e &lt;span&gt; ao mesmo tempo.*/<br>
+        p, div, span{<br>
+            margin: 0;<br>
+            padding: 0;<br>
+            box-sizing: border-box;<br>
+        }<br>
+
+        /* Todos os filhos de header que forem a serão selecionados.*/
+        header a { <br>
+            color: red; <br>
+        } <br>
+    </code>
+
+</body>
+</html>
